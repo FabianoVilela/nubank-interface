@@ -1,11 +1,12 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
 
-// import Routes from '~/routes';
+import Routes from '~/routes';
 
 const App = () => (
   <>
-    <StatusBar barStyle="light-content" backgroundColor="#8B10AE" />
+    <StatusBar barStyle="light-content" backgroundColor="#81269d" />
+    <Routes />
   </>
 );
 
